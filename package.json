@@ -1,0 +1,17 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "node demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vincentwen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1"
+  }
+}
